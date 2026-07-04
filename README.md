@@ -14,7 +14,7 @@ _(Replace with your actual portfolio link if different)_
 
 ## ✨ Preview
 
-A live code-style preview is shown in the Projects card instead of a static screenshot. The preview displays a small HTML snippet styled to look like a code editor so visitors can get a sense of the project's structure and UI without an image.
+Project cards now use embedded iframe previews so visitors can see each live demo directly on the portfolio page. This creates a more interactive experience than using a static screenshot.
 
 You can view the full working demo at the Live Demo link above.
 
@@ -78,8 +78,10 @@ I'm currently learning JavaScript and improving my front-end development skills.
 
 ## 📝 Notes
 
-- Project card now uses an HTML/CSS "code preview" block (`.project-code-preview`) instead of `project1.png`.
-- Styles were added to `styles.css` to create the editor-like card (code header dots, monospace font, dark background).
+- Updated the projects section to use cleaner, valid HTML structure with separate article cards for each project.
+- Fixed the previous broken wrapper layout so the iframe previews render properly.
+- Added new styles for project cards, preview containers, and responsive iframe sizing in `styles.css`.
+- Added clearer section comments in `index.html` to make future edits easier to follow.
 
 ## 📄 License
 
