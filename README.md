@@ -7,13 +7,16 @@ This project showcases my skills, projects, and contact information in a clean a
 
 ## ✨ Live Demo
 
-👉 https://spotify-playlist-seven.vercel.app/
+👉 https://spotify-playlist-seven.vercel.app/  
+_(Replace with your actual portfolio link if different)_
 
 ---
 
-## 📸 Preview
+## ✨ Preview
 
-![Portfolio Preview](project1.png)
+A live code-style preview is shown in the Projects card instead of a static screenshot. The preview displays a small HTML snippet styled to look like a code editor so visitors can get a sense of the project's structure and UI without an image.
+
+You can view the full working demo at the Live Demo link above.
 
 ---
 
@@ -42,9 +45,8 @@ This project showcases my skills, projects, and contact information in a clean a
 portfolio/
 │
 ├── index.html
-├── styles.css
+├── styles.css (updated with `.project-code-preview` styles)
 ├── profile.jpeg
-├── project1.png
 └── README.md
 
 ---
@@ -73,6 +75,11 @@ I'm currently learning JavaScript and improving my front-end development skills.
 - Add dark mode toggle
 
 ---
+
+## 📝 Notes
+
+- Project card now uses an HTML/CSS "code preview" block (`.project-code-preview`) instead of `project1.png`.
+- Styles were added to `styles.css` to create the editor-like card (code header dots, monospace font, dark background).
 
 ## 📄 License
 

@@ -82,11 +82,50 @@ header p {
   margin-bottom: 1rem;
 }
 
-.project-card img {
-  width: 150px;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.project-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.project-code-preview {
+  flex: 0 0 220px;
+  background: #0d1117;
+  color: #c9d1d9;
+  border-radius: 18px;
+  padding: 1rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.code-header {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.code-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.code-dot.red { background: #ff5f56; }
+.code-dot.yellow { background: #ffbd2e; }
+.code-dot.green { background: #27c93f; }
+
+.project-code-preview pre {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.87rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.project-info {
+  flex: 1;
 }
 
 .role {
