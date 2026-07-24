@@ -7,8 +7,7 @@ This project showcases my skills, projects, and contact information in a clean a
 
 ## ✨ Live Demo
 
-👉 https://spotify-playlist-seven.vercel.app/  
-_(Replace with your actual portfolio link if different)_
+👉 https://spotify-playlist-seven.vercel.app/
 
 ---
 
