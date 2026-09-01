@@ -1,59 +1,74 @@
-# 🌸 Personal Portfolio Website
+# 🌸 Simplified Portfolio Showcase
 
-A responsive personal portfolio website built using **HTML and CSS**.  
-This project showcases my skills, projects, and contact information in a clean and modern layout.
-
----
-
-## ✨ Live Demo
-
-👉 https://spotify-playlist-seven.vercel.app/
+A lightweight personal portfolio website built with HTML, CSS, and JavaScript. The page is designed as a simplified portfolio with a left sidebar for the profile and skills, and a right-side project showcase that cycles through live website previews using an iframe carousel.
 
 ---
 
-## ✨ Preview
+## ✨ Overview
 
-Project cards now use embedded iframe previews so visitors can see each live demo directly on the portfolio page. This creates a more interactive experience than using a static screenshot.
+This project includes:
 
-You can view the full working demo at the Live Demo link above.
-
----
-
-## 📌 Features
-
-- Responsive two-column layout (profile + projects)
-- Clean and modern UI design
-- Profile card with photo, bio, and social links
-- Skills section with visual progress bars
-- Projects showcase with live demo links
-- Mobile-friendly design
+- a profile card with bio text and social links
+- a skills section with progress bars
+- a project showcase area with embedded iframe previews
+- previous/next carousel buttons to switch between project demos
+- a clean, modern pink-themed visual style inspired by the mockup
 
 ---
 
-## 🧱 Built With
+## 🧩 Current Features
+
+- Responsive portfolio layout
+- Personal profile section
+- Skills card with visual progress indicators
+- iframe-based project previews for live website demos
+- clickable carousel controls for switching project views
+- mobile-friendly structure for smaller screens
+
+---
+
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
+- JavaScript
 - Google Fonts (Poppins)
-- Responsive Grid & Flexbox
 
 ---
 
 ## 📁 Project Structure
 
-portfolio/
-│
+```bash
+Simplified-Portfolio/
 ├── index.html
-├── styles.css (updated with `.project-code-preview` styles)
+├── styles.css
+├── script.js
 ├── profile.jpeg
-└── README.md
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ▶️ How to Run
+
+From the project folder, start a local server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open:
+
+```bash
+http://localhost:8000
+```
 
 ---
 
 ## 👩‍💻 About Me
 
-Hi, I'm **Anisah Iskandar**, a junior web developer focused on building clean and responsive web interfaces.  
-I'm currently learning JavaScript and improving my front-end development skills.
+Hi, I'm **Anisah Iskandar**. I am learning front-end development and building responsive websites with a focus on clean user interfaces. An addition to that, I am also working as a UI/UX Designer.
 
 ---
 
@@ -65,12 +80,19 @@ I'm currently learning JavaScript and improving my front-end development skills.
 
 ---
 
+## 📝 Notes
+
+- The project showcase uses embedded iframes so visitors can preview the actual website demos directly on the portfolio page.
+- The carousel controls are implemented in JavaScript to switch between project previews smoothly.
+- The current layout keeps the portfolio structure close to the provided mockup while preserving the interactive showcase behavior.
+
+---
+
 ## 🚀 Future Improvements
 
-- Add JavaScript interactivity
-- Improve animations and transitions
 - Add more projects
-- Improve accessibility and SEO
+- Improve showcasing projects style
+- Add dark mode toggle
 - Add dark mode toggle
 
 ---
@@ -84,4 +106,4 @@ I'm currently learning JavaScript and improving my front-end development skills.
 
 ## 📄 License
 
-This project is open for learning and personal use.
+This project is intended for personal learning and portfolio use.
